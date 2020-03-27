@@ -42,6 +42,10 @@ python gen-curl-for-jgi.py -html all-jgi-dat.xml -o curl-command-for-cog-functio
 ## Step 5: Run the curl command
 Note: You can look at the first few lines of the code by using "head" command and running separately. This should be adding files to your folder. You can also copy/paste the link in the curl command and this should show you what is there/being downloaded. 
 
+```
+bash curl-command-for-cog-functions.shx
+```
+
 #### Pro-tip
 JGI does not allow large downloads during certain hours of the day and your download may time-out. Try to initiate your large downloads late at night. 
 
