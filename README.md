@@ -5,7 +5,9 @@ Also see tutorial from JGI here: https://genome.jgi.doe.gov/portal/help/download
 
 _Last updated: By ANB, March 26, 2020_
 
-! As of March 26, 2020, this code is still prelimiary and will be formalized once all data are downloaded
+<aside class="notice">
+As of March 26, 2020, this code is still prelimiary and will be formalized once all data are downloaded
+</aside>
 
 ## Step 1: Navigate to JGI and find your project
 This is where the data live currently. The dataset I am working with currently is:
@@ -19,7 +21,9 @@ Click on the botton labeled "Open Downloads as XML" and save this file as a .txt
 ## Step 3: Create a cookie so JGI can validate your credentials 
 Use the following code and save as "make-a-cookie.shx" in the directory you will be downloading your files into. Make sure to replace the ENTER-USERNAME and ENTER-PASSWORD with your own personal info. Instructions on how to download using the API: https://genome.jgi.doe.gov/portal/help/download.jsf#/api
 
-!! Keep in mind that JGI may change these commands so make sure to check back into ensure the details have not changed!
+<aside class="warning">
+Keep in mind that JGI may change these commands so make sure to check back into ensure the details have not changed!
+</aside>
 
 ```
 curl 'https://signon.jgi.doe.gov/signon/create' --data-urlencode 'login=ENTER-USERNAME' --data-urlencode 'password=ENTER-PASSWORD' -c cookies > /dev/null
