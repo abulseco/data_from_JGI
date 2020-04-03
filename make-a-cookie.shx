@@ -1,0 +1,3 @@
+!#/bin/bash
+
+curl 'https://signon.jgi.doe.gov/signon/create' --data-urlencode 'login=ashley.bulseco@gmail.com' --data-urlencode 'password=besi27De!' -c cookies > /dev/null
